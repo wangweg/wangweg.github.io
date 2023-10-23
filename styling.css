@@ -1,0 +1,66 @@
+/* Reset some default styles */
+* {
+    box-sizing: border-box;
+    margin: 1;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Header and Navbar styles (if needed) */
+
+/* Colored Footer styles */
+.colored-footer {
+    background: blueviolet;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+}
+
+.footer-content p {
+    font-size: 16px;
+}
+
+.whatsapp-icon {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    background-image: url('whatsapp icon.png'); /* Set your WhatsApp icon image here */
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+.twitter-icon {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    background-image: url('twitter icon.png'); /* Set your WhatsApp icon image here */
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+.facebook-icon {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    background-image: url('facebook icon.png'); /* Set your WhatsApp icon image here */
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    }
+
+
+/* Media Queries for responsiveness (if needed) */

@@ -1,0 +1,63 @@
+/* Reset some default styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Header and Navbar styles (if needed) */
+
+/* Colored Footer styles */
+.colored-footer {
+    background: #007BFF;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-content p {
+    font-size: 16px;
+}
+
+.social-icons {
+    font-size: 24px;
+}
+
+.icon {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    margin-right: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.icon.facebook {
+    background-image: url('facebook icon.png');
+}
+
+.icon.twitter {
+    background-image: url('twitter icon.png');
+}
+
+.icon.whatsapp {
+    background-image: url('whatsapp icon.png');
+}
+
+/* Media Queries for responsiveness (if needed) */
